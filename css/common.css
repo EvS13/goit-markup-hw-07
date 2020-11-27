@@ -1,0 +1,114 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --button-color: #FFFFFF;
+    --primary-br-color:#FFFFFF;
+    --secondary-br-color:#F5F4FA;
+    --footer-br-color: #2F303A;
+}
+
+
+
+
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* акцент #2196F3 */
+/* кнопка #FFFFFF */
+/* первичный цвет заливки #FFFFFF */
+/* вторичный цвет заливки  #F5F4FA */
+/* цвет заливки подвала #2F303A */
+
+
+
+
+
+
+/* portfolio.css */
+
+
+/* body */
+
+.body {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+}
+
+/* header */
+
+.header {
+    background-color: #ffffff;
+    color: var(--title-text-color);
+}
+
+/* logo */
+
+.logo{
+    color: #000000 ;
+    font-family: Raleway, sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-footer {
+    color: #FFFFFF;
+}
+
+.logo-web {
+   color:var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* link-nav */
+
+.link-nav .link {
+    color: var(--primary-text-color);
+}
+
+.link-nav .link:hover,
+.link-nav .link:focus {
+    color:  var(--accent-color);
+}
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--footer-br-color);
+}
+
+.address {
+    color: #FFFFFF;
+}
+
+.footer .link {
+    color: rgba(255, 255, 255, 0.6)
+}
+
