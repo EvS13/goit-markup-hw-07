@@ -683,8 +683,6 @@ img {
   fill: var(--button-color);
 }
 
-/* social-icon */
-/* clients */
 .clients {
   padding-bottom: 94px;
   padding-top: 94px;
@@ -738,7 +736,6 @@ img {
   fill: var(--accent-color);
 }
 
-/* footer */
 .footer {
   height: 252px;
   margin-left: auto;
@@ -941,8 +938,6 @@ img {
   color: #2196f3;
 }
 
-/* Бэкдроп и модальное окно */
-/* В начале позиция, потом геометрия и всё остальное */
 .backdrop {
   position: fixed;
   top: 0;
@@ -965,7 +960,6 @@ img {
   transform: translate(-50%, -50%) scale(0.9);
 }
 
-/* modal */
 .modal {
   position: absolute;
   top: 50%;
@@ -998,7 +992,6 @@ img {
   border: none;
 }
 
-/* form */
 .form {
   padding-bottom: 40px;
 }
