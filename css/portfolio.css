@@ -1,14 +1,3 @@
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --button-color: #ffffff;
-  --primary-br-color: #ffffff;
-  --secondary-br-color: #f5f4fa;
-  --footer-br-color: #2f303a;
-  --icon-color: rgba(175, 177, 184, 1);
-}
-
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -57,7 +46,7 @@ body {
 Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 */
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: system-ui, -apple-system, "Segoe UI", "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 /*
@@ -279,8 +268,8 @@ summary {
 
 .body {
   background-color: #ffffff;
-  color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
+  color: #757575;
+  font-family: "Roboto", sans-serif;
 }
 
 img {
@@ -311,7 +300,7 @@ img {
 .header {
   border: 1px solid #eeeeee;
   background-color: #ffffff;
-  color: var(--title-text-color);
+  color: #212121;
 }
 
 .header-nav {
@@ -326,7 +315,7 @@ img {
 
 .header-logo {
   color: #000000;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", "sans-serif";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -335,7 +324,7 @@ img {
 }
 
 .header-web {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .logo-header .logo {
@@ -359,8 +348,8 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  color: var(--title-text-color);
-  font-family: Roboto;
+  color: #212121;
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -371,11 +360,11 @@ img {
 
 .site-nav .header-link:hover,
 .site-nav .header-link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .site-nav .header-link.current {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .current::after {
@@ -386,7 +375,7 @@ img {
   display: block;
   width: 100%;
   height: 4px;
-  background: var(--accent-color);
+  background: #2196f3;
   border-radius: 2px;
 }
 
@@ -406,7 +395,7 @@ img {
 }
 
 .link {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -418,17 +407,17 @@ img {
 }
 
 .header-item .link {
-  color: var(--primary-text-color);
+  color: #757575;
   text-decoration: none;
 }
 
 .link:hover, .link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .link:hover .header-icon,
 .link:focus .header-icon {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .project {
@@ -489,7 +478,7 @@ img {
 .projects {
   position: absolute;
   display: block;
-  color: var(--button-color);
+  color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -500,7 +489,7 @@ img {
   padding: 63px 24px;
   width: 370px;
   height: 294px;
-  font-family: Roboto;
+  font-family: font-family;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
@@ -515,7 +504,7 @@ img {
 }
 
 .projects-list .projects-text {
-  color: var(--primary-text-color);
+  color: #757575;
 }
 
 .projects-list .projects-title {
@@ -528,7 +517,7 @@ img {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--title-text-color);
+  color: #212121;
 }
 
 .projects-text {
@@ -541,8 +530,8 @@ img {
 }
 
 .button {
-  color: var(--title-text-color);
-  background-color: var(--accent-color);
+  color: #212121;
+  background-color: #2196f3;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -552,21 +541,20 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-project {
-  margin-bottom: 34px;
-}
-
 .button.secondary {
   padding: 6px 22px;
   border-radius: 4px;
   border-color: transparent;
-  background: var(--secondary-br-color);
+  background: #f5f4fa;
 }
 
-.button:hover,
-.button:focus {
-  color: var(--button-color);
-  background-color: var(--accent-color);
+.button:hover, .button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.button-project {
+  margin-bottom: 34px;
 }
 
 .footer {
@@ -575,7 +563,7 @@ img {
   margin-right: auto;
   padding-top: 66px;
   padding-bottom: 54px;
-  background-color: var(--footer-br-color);
+  background-color: #2f303a;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -590,7 +578,7 @@ img {
 
 .footer .link:hover,
 .footer .link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .footer-logo {
@@ -604,7 +592,7 @@ img {
 
 .footer-mail .link,
 .footer-tel .link {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -621,8 +609,8 @@ img {
   display: block;
   margin-top: 0;
   margin-bottom: 20px;
-  color: var(--button-color);
-  font-family: Roboto;
+  color: #ffffff;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -650,9 +638,8 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-link:hover,
-.footer-link:focus {
-  background-color: var(--accent-color);
+.footer-link:hover, .footer-link:focus {
+  background-color: #2196f3;
 }
 
 .footer-icon {
@@ -662,7 +649,7 @@ img {
 .footer-svg {
   width: 20px;
   height: 20px;
-  fill: var(--button-color);
+  fill: #ffffff;
 }
 
 .footer-container {
@@ -672,7 +659,7 @@ img {
 
 .logo-footer {
   color: #ffffff;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;

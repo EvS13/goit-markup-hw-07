@@ -20,13 +20,13 @@
   margin-bottom: 12px;
   margin-top: 0;
 
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 .form-svg {
@@ -35,7 +35,7 @@
   left: 15px;
   transform: translatey(-50%);
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms $timing-function;
 }
 
 .form-label {
@@ -47,14 +47,14 @@
   cursor: pointer;
   color: #757575;
 
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 .form-input {
@@ -67,7 +67,7 @@
   box-sizing: border-box;
   border-radius: 4px;
 
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: normal;
   font-size: 12px;
   line-height: 1.17;
@@ -75,18 +75,18 @@
 
   color: #757575;
 
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms $timing-function;
   cursor: pointer;
   outline: none;
 
   &:hover + .form-svg,
   &:focus + .form-svg {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
 
   &:hover,
   &:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
   }
 }
 
@@ -104,7 +104,7 @@ textarea {
 
 .textarea {
   color: rgba(117, 117, 117, 0.5);
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -113,7 +113,7 @@ textarea {
 
   padding: 12px 16px;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
@@ -121,15 +121,15 @@ textarea {
   cursor: pointer;
   outline: none;
 
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms $timing-function;
 
   &::placeholder {
-    color: var(--primary-text-color);
+    color: $primary-text-color;
   }
 
   &:hover,
   &:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
   }
 }
 
@@ -141,20 +141,20 @@ textarea {
   margin-top: 20px;
   margin-bottom: 30px;
 
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 .checkbox-link {
   display: inline-block;
 
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -162,7 +162,7 @@ textarea {
   letter-spacing: 0.03em;
   margin-left: 4px;
 
-  color: var(--accent-color);
+  color: $accent-color;
   text-decoration: underline;
 }
 
@@ -175,7 +175,7 @@ textarea {
 
   &:checked + .checkbox-text {
     border-color: transparent;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     background-image: url(../images/check.svg);
     background-size: contain;
     background-origin: border-box;
@@ -189,7 +189,7 @@ textarea {
   height: 15px;
   margin-right: 8px;
 
-  border: 2px solid var(--title-text-color);
+  border: 2px solid $title-text-color;
   border-radius: 4px;
 }
 
@@ -208,7 +208,7 @@ textarea {
   width: 200px;
   height: 50px;
 
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -219,11 +219,11 @@ textarea {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: transparent;
-  color: var(--button-color);
+  color: $button-color;
 
   &:hover,
   &:focus {
-    color: var(--footer-br-color);
+    color: $footer-br-color;
     cursor: pointer;
   }
 }

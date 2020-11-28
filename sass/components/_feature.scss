@@ -32,13 +32,13 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
 
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 .feature-text {
   margin-top: 0;
   margin-bottom: 0;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
