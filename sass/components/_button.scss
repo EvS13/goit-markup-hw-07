@@ -16,14 +16,14 @@
   background-color: $accent-color;
   cursor: pointer;
 
-  .primary {
+  &.primary {
     color: $button-color;
     background-color: $accent-color;
     transition: color 250ms $timing-function;
   }
 
-  .primary:hover,
-  .primary:focus {
+  &.primary:hover,
+  &.primary:focus {
     color: $footer-br-color;
   }
 }
