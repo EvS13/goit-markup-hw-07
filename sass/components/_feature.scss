@@ -16,12 +16,6 @@
   border-radius: 4px;
 }
 
-/* Можно использовать этот вариант
-
-.list-item :nth-child(1)::before {
-    background-image: url(../images/sprite.svg);
-} */
-
 .feature-title {
   text-transform: uppercase;
   margin-top: 0;
