@@ -488,7 +488,7 @@ img {
   padding: 63px 24px;
   width: 370px;
   height: 294px;
-  font-family: font-family;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
@@ -550,6 +550,7 @@ img {
 .button:hover, .button:focus {
   color: #ffffff;
   background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-project {
